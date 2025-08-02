@@ -20,7 +20,13 @@ CalmNest contains pages focused on practical and emotional self-care, including:
 - 🏢 **About CalmNest** – A professional-style page introducing CalmNest as a wellness initiative
 
 ---
-
+## 🚀 Features
+- Mental wellness tips on sleep, stress, and self-reflection
+- Responsive design for desktop and mobile
+- Contact form with validation and reset
+- Animated elements for engaging UI
+- 
+---
 ## 📌 Tech Stack
 
 - HTML5  
