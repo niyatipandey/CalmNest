@@ -688,6 +688,12 @@ body{
     transform: scale(1.02);
 }
 @media (max-width: 768px) {
+    .head_bar {
+        flex-direction: column;
+        gap:1.2rem;
+        justify-content:center;
+        align-items: center;
+  }
   .about_heading {
       font-size: 2.5rem;
       height: 4.5rem;
