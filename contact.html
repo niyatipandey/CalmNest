@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Playwrite+AU+QLD:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+
+
+</head>
+<body style="background-color: #f3bdcf">
+    <div class="head_bar" >
+        <p class="head">CalmNest</p>
+        <div class="sidebar">
+            <a class="link1" href="home.html">Home</a>
+            <a class="link1" href="about.html">About</a>
+            <a class="link1" href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="form">
+        <form id="contact_form">
+            <p class="contact">CONTACT US</p>
+            <p class="contact_us">Fill out the form below to get in touch</p>
+            <div class="group">
+                <label class="Name" for="name">Name</label>
+                <input  id="name" required class="username" type="text" placeholder="username">
+            </div>
+            <div class="group">
+                <label class="Name" for="phone">Phone</label>
+                <input  id="phone" required class="username" type="number" placeholder="xxxxx98768">
+            </div>
+            <div class="group">
+                <label class="Name" for="Email">Email</label>
+                <input  id="Email" required class="username" type="email" placeholder="example@email.com">
+            </div>
+            <div class="btn">
+                <textarea class="query" required placeholder="Write your query"></textarea>
+                <button class="submit" type="submit">Submit</button>
+                <p class="email">Email us at <a class="calmnest" href="#">calmnest@example.com</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

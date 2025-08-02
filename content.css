@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5cbdc;
+}
+.content {
+    width: 80%;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem auto;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 2px rgba(255, 139, 178, 0.3);
+}
+.intro_line{
+    font-family: 'Dancing Script', serif;
+    font-size: 3rem;        
+    font-weight: bold;      
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #f23873 ;
+    text-shadow: 0.5px 0.5px 16px #e65f8c;
+}
+.intro{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.tips{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.line1{
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', serif;
+    margin-top: 0.3rem;
+    font-size: 3rem;        
+    font-weight: bold;      
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #f23873  ;
+    animation: popin 0.6s ease-in-out;
+}
+.foot:hover{
+    color: #e6094f;
+}
+@keyframes popin{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.4);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0) scale(1);
+    }
+}
+@media (max-width: 1024px) {
+    .content {
+        width: 90%;
+        height: auto;
+        margin: 3rem auto;
+        padding: 2rem;
+        border-radius: 2rem;
+        box-shadow: 1px 1px 8px rgba(255, 139, 178, 0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro_line {
+        font-size: 2.4rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .intro {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .tips {
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 0 1.5rem;
+        margin: 1rem auto;
+        line-height: 1.6;
+    }
+
+    .line1 {
+        font-size: 1.1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .foot {
+        font-size: 2.5rem;
+        padding: 0 1rem;
+        margin: 2rem 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro_line {
+        font-size: 2rem;
+    }
+
+    .intro {
+        font-size: 1.1rem;
+    }
+
+    .tips {
+        font-size: 1.1rem;
+        padding: 0 1.2rem;
+    }
+
+    .line1 {
+        font-size: 1rem;
+    }
+
+    .foot {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro_line {
+        font-size: 1.6rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+    }
+
+    .tips {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .line1 {
+        font-size: 0.95rem;
+    }
+
+    .foot {
+        font-size: 1.7rem;
+        padding: 0 1rem;
+    }
+}
+
+/*@media (max-width:769px) {
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background-color: #f5cbdc;
+    }
+    .content{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1px;
+        border-radius: 2rem;
+        box-shadow:  1px 1px 2px rgba(255, 139, 178, 0.3);
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .intro_line{
+        font-family: 'Dancing Script', serif;
+        font-size: 3rem;        
+        font-weight: bold;      
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #f23873 ;
+        text-shadow: 0.5px 0.5px 16px #e65f8c;
+    }
+    .intro{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .tips{
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .line1{
+        font-size: 1.3rem;
+        margin-left: 1.2rem;
+        margin-bottom: 0.6rem;
+    }
+    .foot{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1px;
+        font-family: 'Dancing Script', serif;
+        margin-top: 1rem;
+        font-size: 3rem;        
+        font-weight: bold;      
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #f23873  ;
+        animation: popin 0.6s ease-in-out;
+    }
+    .foot:hover{
+        color: #e6094f;
+    }
+    @keyframes popin{
+        0%{
+            opacity: 0;
+            transform: translateY(30px) scale(0.4);
+        }
+        100%{
+            opacity: 1;
+            transform:translateY(0) scale(1);
+        }
+    }
+    .tips_line{
+        display: flex;
+        flex-direction: column;
+    }
+}*/

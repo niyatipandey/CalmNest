@@ -1,0 +1,857 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #fed8e7;
+}
+.box{
+    width: 90%;
+    height: 90%;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+    background-color: #fd90b3 ;
+    box-shadow:  0 0 8px rgba(246, 17, 93, 0.8);
+    padding-bottom: 2rem;
+    overflow: hidden;
+}
+.heading{
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 5rem;
+    text-shadow: 0.5px 0.5px 16px #f51d65;
+    font-family: 'Cormorant Garamond',sans-serif;
+}
+
+.head{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.text_heading{
+    text-align: center;
+    font-size: 2rem;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.link{
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+}
+.link:hover{
+    color: rgb(229, 52, 111);
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.card{
+    width: 20rem;
+    height: 27rem;
+    border-radius: 1rem;
+    box-shadow:  3px 5px 8px rgba(255, 39, 111, 0.8);
+}
+.card:hover{
+    background-color:#f9e7ed ;
+    transform: scale(1.1);
+}
+.image{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+.content{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Cormorant Garamond',sans-serif;
+    font-weight: bold;
+}
+.home_card{
+    text-decoration: none;
+}
+.content_text{
+    text-align: center;
+    font-size: 1.3rem ;
+    color: black;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.earth1{
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+}
+.earth{
+    color: #e60f57;
+}
+.mail{
+    color: #e60f57;
+    font-size: 1.3rem;
+}
+.earth:hover , .earth1:hover{
+    color: #ee6392;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+}
+@media (max-width:769px) {
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: #fed8e7;
+    }
+    .box{
+        width: 95%;
+        height: 100%;
+        margin: 4rem auto;
+        border-radius: 2rem;
+        background-color: #fd90b3 ;
+        box-shadow:  0 0 8px rgba(246, 17, 93, 0.8);
+        padding-bottom: 2rem;
+        overflow: hidden;
+    }
+    .heading{
+        font-size: 5rem;
+        text-align: center;
+        margin-top: 5rem;
+        text-shadow: 0.5px 0.5px 16px #f51d65;
+        font-family: 'Cormorant Garamond',sans-serif;
+    }
+
+    .head{
+        font-size: 2rem;
+        display: flex;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .text_heading{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sidebar{
+        font-size: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        gap: 1px;
+    }
+    .link{
+        text-decoration: none;
+        color: rgb(43, 42, 42);
+    }
+    .link:hover{
+        color: rgb(229, 52, 111);
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+        gap: 1rem;
+    }
+    .card{
+        width: 20rem;
+        height: 27rem;
+        border-radius: 1rem;
+        box-shadow:  3px 5px 8px rgba(255, 39, 111, 0.8);
+    }
+    .card:hover{
+        background-color:#f9e7ed ;
+        transform: scale(1.1);
+    }
+    .image{
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        box-sizing: border-box;
+    }
+    .content{
+        text-align: center;
+        font-size: 2rem;
+        color: black;
+        font-family: 'Cormorant Garamond',sans-serif;
+        font-weight: bold;
+    }
+    .home_card{
+        text-decoration: none;
+    }
+    .content_text{
+        text-align: center;
+        font-size: 1.3rem ;
+        color: black;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+    .earth1{
+        display: flex;
+        text-decoration: none;
+        gap: 10px;
+    }
+    .earth{
+        color: #e60f57;
+    }
+    .mail{
+        color: #e60f57;
+        font-size: 1.3rem;
+    }
+    .earth:hover , .earth1:hover{
+        color: #ee6392;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 30px;
+        gap: 1rem;
+    }
+}
+@media (max-width: 481px) {
+    .box {
+        width: 95%;
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+
+    .heading {
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+
+    .head {
+        font-size: 1.5rem;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .sidebar {
+        font-size: 1.2rem;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 1rem 0;
+    }
+
+    .text_heading {
+        font-size: 1.2rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+        gap: 1rem;
+    }
+    .card{
+        width: 20rem;
+        height: 27rem;
+        border-radius: 1rem;
+        box-shadow:  3px 5px 8px rgba(255, 39, 111, 0.8);
+    }
+    .card:hover{
+        background-color:#f9e7ed ;
+        transform: scale(1.1);
+    }
+    .content_text{
+        text-align: center;
+        font-size: 1.2rem ;
+        color: black;
+    }
+    .image{
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        box-sizing: border-box;
+    }
+    .content{
+        text-align: center;
+        font-size: 1.8rem;
+        color: black;
+        font-family: 'Cormorant Garamond',sans-serif;
+        font-weight: bold;
+    }
+    .home_card{
+        text-decoration: none;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .social {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .mail {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+    .box {
+        width: 90%;
+        margin: 3rem auto;
+        padding: 2rem;
+    }
+
+    .heading {
+        font-size: 6rem;
+    }
+
+    .head {
+        font-size: 1.8rem;
+        margin-left: 2rem;
+    }
+
+    .sidebar {
+        font-size: 1.5rem;
+        gap: 1.5rem;
+        margin-right: 2rem;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .card {
+        width: 18rem;
+        height: 25rem;
+    }
+
+    .content {
+        font-size: 1.8rem;
+    }
+
+    .content_text {
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 20px;
+    }
+
+    .social {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+#contact_form{
+    width: 400px;
+    height: 570px;
+    border: 1px solid #f7d0dd;
+    border-radius: 1rem;
+    background-color: #f7d0dd;
+    box-shadow: 0 0 4px 2px #e58eab;
+    overflow: hidden;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-bottom: 0.25rem;
+}
+.contact , .contact_us{
+    text-align: center;
+}
+.contact{
+    color: #e60f57;
+    font-size: 2.5rem;
+    margin: 1rem;
+    font-family: 'Cormorant Garamond',sans-serif;
+    font-weight: bold;
+}
+.contact_us{
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+}
+.Name{
+    font-size: 1.3rem;
+}
+.username{
+    font-size: 1rem;
+    width: 70%;
+    border-radius: 0.7rem;
+    padding: 12px 30px;
+}
+.username:focus , .query:focus{
+    border-color: #e60073;
+    box-shadow: 0 0 5px #e60073;
+    outline: none;
+}
+.query{
+    font-size: 1rem;
+    width: 70%;
+    border-radius: 0.7rem;
+    padding: 12px 30px;
+    margin-top: 1.4rem;
+    height: 4rem;
+    resize: vertical;
+
+    overflow-wrap: break-word;
+    white-space: normal;
+    overflow: auto;
+
+}
+.submit{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 0.6rem;
+    background-color: #ee6392;
+    font-size: 1.3rem;
+    color: white;
+    padding: 6px 30px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+    animation: popin 0.6s ease-in-out;
+}
+@keyframes popin{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.55);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0) scale(1);
+    }
+}
+.email{
+    font-size: 1.1rem;
+}
+.calmnest{
+    text-decoration: none;
+    color: #b30059;
+}
+.submit:hover{
+    background-color: #e60f57;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+    #contact_form {
+        width: 90%;
+        height: auto;
+        padding: 1.5rem 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .contact {
+        font-size: 2rem;
+    }
+
+    .contact_us {
+        font-size: 1rem;
+    }
+
+    .Name {
+        font-size: 1.1rem;
+    }
+
+    .username, .query {
+        width: 90%;
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .query {
+        height: 5rem;
+    }
+
+    .submit {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .email {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .form {
+        margin-top: 2rem;
+    }
+
+    .btn {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #contact_form {
+        width: 95%;
+        padding: 0.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .contact {
+        font-size: 1.8rem;
+    }
+
+    .contact_us {
+        font-size: 0.95rem;
+    }
+
+    .Name {
+        font-size: 1rem;
+    }
+
+    .username, .query {
+        width: 95%;
+        font-size: 0.95rem;
+        padding: 8px 16px;
+    }
+
+    .query {
+        height: 4rem;
+    }
+
+    .submit {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .email {
+        font-size: 0.95rem;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .head_bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+  }
+
+  .head {
+    font-size: 2rem;
+  }
+
+  .sidebar {
+    font-size: 1.5rem;
+    gap: 1.2rem;
+  }
+}
+.about_heading{
+    background-color: #e60073;
+    color: white;
+    font-size: 3.9rem;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 0 7px #f685bd;
+    font-family: 'Cormorant Garamond',sans-serif;
+    font-weight: bold;
+}
+.aboutcalm{
+    width: 730px;
+    height: 450px;
+    border: 1px solid #e60f57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    margin-bottom: 0.4rem;
+    box-shadow: 0 0 5px #e60073;
+    animation: popin 0.7s ease-in;
+    box-sizing: border-box;
+    gap: 0.5rem;
+}
+.about_content{
+    display: flex;
+}
+.about{
+    color: #e60f57;
+    font-size: 2.5rem;
+    margin: 2rem 0rem 2rem 0rem;
+    font-family: 'Dancing Script',sans-serif;
+    font-weight: bold;
+}
+.about_image{
+    width: 730px;
+    height: 450px;
+    border: 1px solid #e60f57;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    box-shadow: 0 0 5px #e60073;
+    animation: popin 0.7s ease-in;
+}
+.hands{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 2rem ;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.about_us{
+    color: #f33e7a;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-family: 'PT Sans',sans-serif;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content:start ;
+}
+.list{
+    margin-left: 2rem;
+}
+.aboutBox{
+    height: 200px;
+    width: 730px;
+    height: 320px;
+    border: 1px solid #e60f57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    box-shadow: 0 0 5px #e60073;
+    animation: popin 0.7s ease-in;
+}
+.bottom{
+    display: flex;
+}
+.aboutBox:hover , .aboutcalm:hover , .about_image:hover{
+    transform: scale(1.02);
+}
+@media (max-width: 768px) {
+  .about_heading {
+      font-size: 2.8rem;
+      height: 4.5rem;
+      text-align: center;
+      padding: 1rem;
+  }
+
+  .about_content {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+  }
+
+  .aboutcalm,
+  .about_image,
+  .aboutBox {
+      width: 90%;
+      height: auto;
+      margin: 1rem 0;
+  }
+
+  .about {
+      font-size: 2rem;
+      text-align: center;
+      margin: 1.5rem 1rem;
+  }
+
+  .about_us {
+      font-size: 1.1rem;
+      text-align: center;
+      margin: 0.5rem 1rem;
+  }
+
+  .hands {
+      width: 100%;
+      height: auto;
+      padding: 0.5rem;
+      object-fit: cover;
+  }
+
+  .bottom {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+  }
+
+  .list {
+      margin-left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .head_bar {
+    flex-direction: column;
+    align-items: center;
+    background-color: #e60073;
+    color: white;
+    padding: 0.8rem 0;
+    gap: 0.3rem;
+  }
+
+  .head {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .sidebar {
+    font-size: 1.2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .link1 {
+    color: white;
+    text-decoration: none;
+  }
+
+  .link1:hover {
+    color: rgb(216, 0, 72);
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .head_bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+  }
+
+  .head {
+    font-size: 2rem;
+  }
+
+  .sidebar {
+    font-size: 1.5rem;
+    gap: 1.2rem;
+  }
+}
+@media (max-width: 480px) {
+    .about_heading {
+        font-size: 2.2rem;
+        height: 4rem;
+        text-align: center;
+    }
+
+    .aboutcalm,
+    .about_image,
+    .aboutBox {
+        width: 90%;
+        height: auto;
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+
+    .about {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .about_us {
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    .hands {
+        padding: 0.5rem;
+        height: auto;
+    }
+
+    .sidebar {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .head {
+        font-size: 1.6rem;
+        margin: 1rem auto 0;
+    }
+}
+@media (max-width: 360px) {
+    .about_heading {
+        font-size: 1.9rem;
+        height: 3.5rem;
+    }
+
+    .about {
+        font-size: 1.4rem;
+    }
+
+    .about_us {
+        font-size: 0.95rem;
+        margin: 0.3rem;
+    }
+
+    .aboutcalm,
+    .about_image,
+    .aboutBox {
+        width: 95%;
+        padding: 0.8rem;
+    }
+
+    .head {
+        font-size: 1.4rem;
+    }
+}
