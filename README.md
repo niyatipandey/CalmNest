@@ -40,8 +40,7 @@ CalmNest contains pages focused on practical and emotional self-care, including:
 
 ## 🚀 Live Demo
 
-🔗 **[Access the live website here]([https://yourusername.github.io/CalmNest/](https://niyatipandey.github.io/CalmNest/))**  
-(Replace with your actual GitHub Pages link)
+🔗 **[Access the live website here]([(https://niyatipandey.github.io/CalmNest/)]**  
 
 ---
 
