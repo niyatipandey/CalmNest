@@ -25,7 +25,6 @@ CalmNest contains pages focused on practical and emotional self-care, including:
 - Responsive design for desktop and mobile
 - Contact form with validation and reset
 - Animated elements for engaging UI
-- 
 ---
 ## 📌 Tech Stack
 
